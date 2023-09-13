@@ -5,18 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { PensamentosComponent } from './componentes/pensamentos/pensamentos.component';
 import { FormsModule } from '@angular/forms';
-import { ListarPensamentosComponent } from './componentes/listar-pensamentos/listar-pensamentos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
+import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
+import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensamento.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PensamentosComponent,
-    ListarPensamentosComponent
+    CriarPensamentoComponent,
+    ListarPensamentoComponent,
+    PensamentoComponent,
+
   ],
   imports: [
     BrowserModule,
