@@ -9,15 +9,21 @@ export class ListarPensamentoComponent implements OnInit {
 
   listaPensamento = [
     {
-      conteudo: 'Comunicação entre componentes',
-      autoria: 'Jezer',
+      conteudo: 'Passo informacão para o filho',
+      autoria: 'Pai',
       modelo: 'modelo3'
     },
     {
-      conteudo: 'I love Angular',
-      autoria: 'Jezer',
-      modelo: 'modelo3'
+      conteudo: 'Minha propriedade é decorada com @Input',
+      autoria: 'Filho',
+      modelo: 'modelo2'
     }
   ];
+
+  ngOnInit() {
+
+  }
+
+
 
 }

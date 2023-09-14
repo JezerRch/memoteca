@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class CriarPensamentoComponent implements OnInit {
 
   pensamento = {
-    id: '1',
-    conteudo: 'Aprendendo Angular',
-    autoria: 'Dev',
+    id: '',
+    conteudo: '',
+    autoria: '',
     modelo: 'modelo1'
   }
 
